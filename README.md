@@ -34,3 +34,11 @@ Develop SQL-based analytics to deliver detailed insights into:
 - **Sales Trends**
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making. 
+
+## Crédits
+
+Ce projet est basé sur le travail de [Data with Baraa] :
+https://github.com/DataWithBaraa
+
+Le projet original est distribué sous licence MIT.
+Des modifications ont été apportées.
