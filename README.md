@@ -35,10 +35,10 @@ Develop SQL-based analytics to deliver detailed insights into:
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making. 
 
-## Crédits
+## Credits
 
-Ce projet est basé sur le travail de [Data with Baraa] :
+This project is based on the work of Data with Baraa:
 https://github.com/DataWithBaraa
 
-Le projet original est distribué sous licence MIT.
-Des modifications ont été apportées.
+The original project is distributed under the MIT License.
+Modifications have been made.
