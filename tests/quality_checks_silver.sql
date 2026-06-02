@@ -28,3 +28,15 @@ COUNT(*)
 FROM [bronze].[crm_cust_info]
 GROUP BY cst_id
 HAVING COUNT(*) > 1 OR cst_id IS NULL;
+
+-- Check for unwanted Spaces
+-- Expectation: No Results
+SELECT cst_firstname
+FROM [bronze].[crm_cust_info]
+WHERE cst_firstname != TRIM(cst_firstname)
+
+-- Check for unwanted Spaces
+-- Expectation: No Results
+SELECT cst_gndr
+FROM [bronze].[crm_cust_info]
+WHERE cst_gndr != TRIM(cst_gndr)
